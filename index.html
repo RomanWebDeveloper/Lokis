@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<meta name="description" content="">
+	<meta name="keywords" content=""> 
+    <meta name="robots" content="none">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+	<title>Lokis</title>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container-max">
+			<nav class="navbar container">
+				<a href="#">
+					<img src="images/Lokis.svg" width="102" height="60" alt="Lokis">
+				</a>
+				<div class="hamburger toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar-list">
+					<li class="navbar-item"><a href="catalog.html" class="navbar-link">Каталог</a></li>
+					<li class="navbar-item"><a href="portfolio.html" class="navbar-link">Портфолио</a></li>
+					<li class="navbar-item"><a href="contact.html" class="navbar-link">Контакты</a></li>
+					<li class="navbar-item"><button class="btn btn-modal" id="modal-btn" type="button">Оставить заявку</button></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		
+		<section class="intro">
+			<div class="container-max">
+				<div class="intro__item container">
+					<h1 class="intro__title">Баня под ключ <br> с индивидуальным дизайном</h1>
+					<p class="intro__text">Изготавливаем бани из бруса, бани-бочки, мобильные и каркасные бани с индивидуальным дизайном под ваши потребности</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="facts">
+			<div class="container">
+				<ul class="facts__list">
+					<li class="facts__item">
+						<h3 class="facts__title">10 лет</h3>
+						<p class="facts__text">производим товары из дерева</p>
+					</li>
+					<li class="facts__item">
+						<h3 class="facts__title">60 дней</h3>
+						<p class="facts__text">средний срок изготовления бани</p>
+					</li>
+					<li class="facts__item">
+						<h3 class="facts__title">Доставка</h3>
+						<p class="facts__text">по России и странам СНГ</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="benefits">
+			<div class="container">
+				<div class="section__header">
+					<h2 class="section__title section__title-min">С нами легко работать</h2>
+				</div>
+				<ul class="benefits__list">
+					<li class="benefits__item">
+						<article class="benefits__wrapper">
+							<h3 class="benefits__title">Собственное производство</h3>
+							<p class="benefits__text">У нас полный цикл производства: от лесозаготовки до готового изделия, что позволяет контролировать качество на всех этапах и предлагать продукцию, соответствующую вашим требованиям</p>
+						</article>
+					</li>
+					<li class="benefits__item">
+						<article class="benefits__wrapper">
+							<h3 class="benefits__title">Экологичность и качество</h3>
+							<p class="benefits__text">Мы используем только качественную древесину липы и ольхи, которая проходит проверку на экологичность и безопасность для долговечности и комфорта ваших бань и аксессуаров.</p>
+						</article>
+					</li>
+					<li class="benefits__item">
+						<article class="benefits__wrapper">
+							<h3 class="benefits__title">Уникальные термодоски для бани</h3>
+							<p class="benefits__text">Мы производим термодоски на европейском оборудовании. Они устойчивы к влаге и перепадам температур,делают баню стильной и долговечной.</p>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="product">
+			<div class="container-max">
+				<ul class="product__box">
+					<li class="product__item">
+						<article class="product__wrapper container">
+							<div class="product__header">
+								<h2 class="product__title">Бани из бруса</h2>
+								<a class="btn product__link" href="#">узнать больше</a>
+							</div>
+							<div class="product__info">
+								<ul class="product__list">
+									<li class="product__items">от 730 000 ₽</li>
+									<li class="product__items">10–15 м²</li>
+									<li class="product__items">С отделкой</li>
+								</ul>
+								<p class="product__text">Классика с прочной конструкцией для ценителей традиционных решений</p>
+							</div>
+						</article>
+					</li>
+					<li class="product__item">
+						<article class="product__wrapper container">
+							<div class="product__header">
+								<h2 class="product__title">Бани-бочки</h2>
+								<a class="btn product__link" href="#">узнать больше</a>
+							</div>
+							<div class="product__info">
+								<ul class="product__list">
+									<li class="product__items">от 730 000 ₽</li>
+									<li class="product__items">10–15 м²</li>
+									<li class="product__items">С отделкой</li>
+								</ul>
+								<p class="product__text">Классика с прочной конструкцией для ценителей традиционных решений</p>
+							</div>
+						</article>
+					</li>
+					<li class="product__item">
+						<article class="product__wrapper container">
+							<div class="product__header">
+								<h2 class="product__title">Мобильные бани</h2>
+								<a class="btn product__link" href="#">узнать больше</a>
+							</div>
+							<div class="product__info">
+								<ul class="product__list">
+									<li class="product__items">от 730 000 ₽</li>
+									<li class="product__items">10–15 м²</li>
+									<li class="product__items">С отделкой</li>
+								</ul>
+								<p class="product__text">Классика с прочной конструкцией для ценителей традиционных решений</p>
+							</div>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<section class="portfolio">
+			<div class="container">
+				<div class="section__header">
+					<h2 class="section__title">Наше портфолио готовых проектов</h2>
+				</div>
+				<ul class="portfolio__list">
+					<li class="portfolio__item">
+						<article class="portfolio__wrapper">
+							<img class="portfolio__img" src="images/baniloft_1.png" width="550" height="400" alt="бани">
+							<h3 class="portfolio__title">
+								<a class="portfolio__title-link" href="#">Тип бани</a>
+							</h3>
+							<p class="portfolio__text">Баня построена в стиле лофт, дизайн выполнен с учётом пожеланий заказчиков, также установлена печь (краткое описание работы).</p>
+						</article>
+					</li>
+					<li class="portfolio__item">
+						<article class="portfolio__wrapper">
+							<img class="portfolio__img" src="images/baniloft_2.png" width="550" height="400" alt="бани">
+							<h3 class="portfolio__title">
+								<a class="portfolio__title-link" href="#">Тип бани</a>
+							</h3>
+							<p class="portfolio__text">Баня построена в стиле лофт, дизайн выполнен с учётом пожеланий заказчиков, также установлена печь (краткое описание работы).</p>
+						</article>
+					</li>
+					<li class="portfolio__item">
+						<article class="portfolio__wrapper">
+							<img class="portfolio__img" src="images/baniloft_3.png" width="550" height="400" alt="бани">
+							<h3 class="portfolio__title">
+								<a class="portfolio__title-link" href="#">Тип бани</a>
+							</h3>
+							<p class="portfolio__text">Баня построена в стиле лофт, дизайн выполнен с учётом пожеланий заказчиков, также установлена печь (краткое описание работы).</p>
+						</article>
+					</li>
+					<li class="portfolio__item">
+						<article class="portfolio__wrapper">
+							<img class="portfolio__img" src="images/baniloft_4.png" width="550" height="400" alt="бани">
+							<h3 class="portfolio__title">
+								<a class="portfolio__title-link" href="#">Тип бани</a>
+							</h3>
+							<p class="portfolio__text">Баня построена в стиле лофт, дизайн выполнен с учётом пожеланий заказчиков, также установлена печь (краткое описание работы).</p>
+						</article>
+					</li>
+				</ul>
+				<div class="btns-center">
+					<a class="btn portfolio__link" href="#">больше проектов</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<div class="section__header section__block">
+					<h2 class="section__title section__title-min section__title-fill">Технологии в гармонии с традициями</h2>
+					<p class="section__text">Мы сделали акцент на инновациях и высококачественных материалах, чтобы предложить вам продукцию, которая служит долго</p>
+				</div>
+				<ul class="advantages__list">
+					<li class="advantages__item advantages__item-big">
+						<article class="advantages__wrapper">
+							<h3 class="advantages__title">Забота в деталях</h3>
+							<p class="advantages__text">Все материалы и технологии соответствуют высоким стандартам качества и заботятся о вашем здоровье.</p>
+						</article>
+					</li>
+					<li class="advantages__item advantages__item-row">
+						<article class="advantages__wrapper">
+							<h3 class="advantages__title advantages__title-bm">2 года гарантия</h3>
+							<p class="advantages__text">на все наши изделия.  Вы можете быть уверены в надёжности нашей продукции</p>
+						</article>
+					</li>
+					<li class="advantages__item advantages__item-row">
+						<article class="advantages__wrapper">
+							<h3 class="advantages__title advantages__title-bm">60 дней</h3>
+							<p class="advantages__text">Средний срок изготовления бани по вашим индивидуальным параметрам</p>
+						</article>
+					</li>
+					<li class="advantages__item">
+						<article class="advantages__wrapper">
+							<h3 class="advantages__title">Дизайн</h3>
+							<p class="advantages__text">Современный дизайн наших бань сочетает стиль и комфорт</p>
+						</article>
+					</li>
+					<li class="advantages__item advantages__item-big">
+						<article class="advantages__wrapper">
+							<h3 class="advantages__title">Производство</h3>
+							<p class="advantages__text">Производим долговечные конструкции на новом европейском оборудовании</p>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div id="my-modal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<form action="/" method="POST" class="form container">
+					<h1 class="modal-title">Оставьте заявку на консультацию</h1>
+					<div class="form__row">
+						<div class="form__group">
+							<label class="form__label">
+								<input class="form__input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Введите имя">
+							</label>
+						</div>
+						<div class="form__group">
+							<label class="form__label">
+								<input class="form__input input-mail" type="email" data-validate-field="email" name="Email"
+          						placeholder="Электронная почта">
+							</label>
+						</div>
+					</div>
+					<div class="form__row">
+						<div class="form__group">
+							<label class="form__label">
+								<textarea class="form__textarea form__textarea-small" placeholder="Ваш вопрос"></textarea>
+							</label>
+						</div>
+						<button class="btn form__btn" type="submit">заявка  на бесплатную консультацию</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__col footer__col-first">
+						<a class="logo" href="#">
+							<img src="images/Lokis2.svg" width="60" height="60" alt="Lokis">	
+						</a>
+						<p class="footer__text">Готовые каркасные бани, бани-бочки, мобильные бани и бани из бруса с доставкой по все Россией. Индивидуальный дизайн, высокое качество.</p>
+					</div>
+					<div class="footer__col footer__col-second">
+						<h3 class="footer__title">Меню</h3>
+						<nav class="footer__nav">
+							<ul class="footer__list">
+								<li class="footer__item"><a href="#" class="footer__link">Главная</a></li>
+								<li class="footer__item"><a href="catalog.html" class="footer__link">Каталог</a></li>
+								<li class="footer__item"><a href="portfolio.html" class="footer__link">Портфолио</a></li>
+								<li class="footer__item"><a href="contact.html" class="footer__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__col footer__col-third">
+						<h3 class="footer__title">Бани</h3>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">Бани из бруса</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Бани-бочки</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Мобильные бани</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Каркасные бани</a></li>
+						</ul>
+					</div>
+					<div class="footer__col footer__col-fourth">
+						<h3 class="footer__title">Контакты</h3>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a class="footer__link" href="tel:+79999999999">+7 999 999-99-99</a>
+							</li>
+							<li class="footer__item">
+								<a class="footer__link" href="mailto:lokis@mail.com">lokis@mail.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<ul class="footer__info">
+						<li class="footer__info-item">
+							<a class="footer__info-link" href="#">Магазин LOKIS.BY © 2024</a>
+						</li>
+						<li class="footer__info-item">
+							<a class="footer__info-link" href="#">Магазин Все права защищены</a>
+						</li>
+						<li class="footer__info-item">
+							<a class="footer__info-link" href="#">Магазин Политика конфиндециальности</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</main>
+
+	<script src="libs/inputmask.min.js"></script>
+	<script src="libs/just-validate3.3.3.min.js"></script>
+	<script src="js/script-new.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
